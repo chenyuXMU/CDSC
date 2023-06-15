@@ -38,8 +38,8 @@ scData <- list(data = readRDS("XXX.rds"), full_phenoData = readRDS("XXX_phenoDat
 
 #### Simulation
 bulkData <- simulation(scData)
-# if you need true data, please insert here directly.
-# bulkData <- trueData 
+##### if you need true data, please insert here directly.
+##### bulkData <- trueData 
 
 #### Deconvolution
 retult <- CDSC(data_bulk = bulkData$Indata$T, 
